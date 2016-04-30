@@ -16,7 +16,7 @@
 
 ============================
 
-**行末尾追加连个空格**实现硬换行  
+**行末尾追加两个空格**实现硬换行  
 我是第二行<br/>
 
 ============================
@@ -49,8 +49,8 @@
 
 ============================
 
-![示例图片](https://github.com/judasn/markdowncn.com/raw/master/images/example.png)
-[示例链接](http://example.com/ "Title")
+![示例图片](https://avatars1.githubusercontent.com/u/7951015?v=3&s=40)
+[示例链接](http://alanyume.com/ "AlanYume")
 
 ============================
 
@@ -85,22 +85,6 @@ public class Person {
     //缩进
 }
 ```
-
-============================
-
-|Prefix  |Framework   |<br/>
-|--------|------------|<br/>
-|NS      |Foundation (OS X and iOS) and Application Kit (OS X)  |<br/>
-|UI      |UIKit (iOS)  |<br/>
-|AB      |Address Book  |<br/>
-|CA      |Core Animation  |<br/>
-|CI      |Core Image  |<br/>
-
-<table>
-    <tr>
-        <td>Foo</td>
-    </tr>
-</table>
 
 ============================
 
