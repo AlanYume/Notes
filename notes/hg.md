@@ -20,22 +20,16 @@
 ```
 hg revert foo               # 放弃对 foo 文件的修改
 hg revert -a                # 撤销所有的修改
-
 hg add bar                  # 错误添加了文件 bar
 hg revert bar               # 取消添加
-
 hg remove file              # 错误删除了文件 file
 hg revert file              # 好的，恢复了
-
 rm file                     # 错了，删错了
 hg revert file              # 好的，恢复了
-
 hg copy file newfile        # 错了
 hg revert newfile           # 改正就行了
-
 hg rename file newfile      # 错了
 hg revert newfile           # 知错就改
-
 hg revert -r 12345 --all    # revert版本12345之后所有的修改，注：版本12345本身的修改不会被revert
 ```
 
